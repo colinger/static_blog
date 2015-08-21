@@ -47,6 +47,20 @@ PAGINATION_PATTERNS = (
 )
 ARTICLE_URL = ('articles/{slug}.html')
 ARTICLE_SAVE_AS = ('articles/{slug}.html')
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+TAGS_URL = 'tags/'
+TAGS_SAVE_AS = 'tags/index.html'
+
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+AUTHORS_URL = 'authors/'
+AUTHORS_SAVE_AS = 'authors/index.html'
+
+CATEGORY_URL = 'category/{slug}/'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+CATEGORYS_URL = 'categories/'
+CATEGORYS_SAVE_AS = 'categories/index.html'
 PAGE_LANG_SAVE_AS = False
 
 # Feed
@@ -61,8 +75,8 @@ COVER_BG_COLOR = '#375152'
 DEFAULT_PAGINATION = 10
 
 # Plugin
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = [ 'sitemap', 'gravatar' ]
+#PLUGIN_PATHS = ['pelican-plugins']
+#PLUGINS = [ 'sitemap', 'gravatar' ]
 
 # Sitemap
 SITEMAP = {
