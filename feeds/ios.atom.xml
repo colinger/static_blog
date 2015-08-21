@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Colin go</title><link href="http://colinger.github.io/" rel="alternate"></link><link href="http://colinger.github.io/feeds/ios.atom.xml" rel="self"></link><id>http://colinger.github.io/</id><updated>2014-12-24T02:06:00+08:00</updated><entry><title>iOS编码规范参考</title><link href="http://colinger.github.io/articles/iso-code-style.html" rel="alternate"></link><updated>2014-12-24T02:06:00+08:00</updated><author><name>Colin</name></author><id>tag:colinger.github.io,2014-12-24:articles/iso-code-style.html</id><summary type="html">&lt;h2&gt;注释&lt;/h2&gt;
+&lt;p&gt;建议使用&lt;a href="https://github.com/onevcat/VVDocumenter-Xcode"&gt;VVDocumenter&lt;/a&gt;插件 &lt;/p&gt;
+&lt;h3&gt;多行注释&lt;/h3&gt;
+&lt;h4&gt;格式&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/**&lt;/span&gt;
+
+&lt;span class="cm"&gt;              注释内容&lt;/span&gt;
+&lt;span class="cm"&gt;*/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;单行注释&lt;/h3&gt;
+&lt;h4&gt;格式&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;///在对文件、类、函数进行注释时推荐使用多行注释，在函数体内对代码块进行注释时，使用单行注释
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;函数的注释&lt;/h3&gt;
+&lt;h4&gt;函数注释的格式为&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; *  @brief  &lt;/span&gt;
+&lt;span class="cm"&gt; *  @param&lt;/span&gt;
+&lt;span class="cm"&gt; *  @return&lt;/span&gt;
+&lt;span class="cm"&gt; **/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;在&lt;/span&gt;brief&lt;span class="err"&gt;中需要写明函数的主要功能、注意事项&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;在&lt;/span&gt;param&lt;span class="err"&gt;中需要写明函数的变量类型、变量的作用&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;在&lt;/span&gt;&lt;span class="kr"&gt;return&lt;/span&gt;&lt;span class="err"&gt;中需要写明函数的返回类型、返回值的作用&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;如有其他需要说明的地方，可以在@&lt;/span&gt;&lt;span class="kr"&gt;return&lt;/span&gt;&lt;span class="err"&gt;后面添加新项。如&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; *  @brief  &lt;/span&gt;
+&lt;span class="cm"&gt; *  @param&lt;/span&gt;
+&lt;span class="cm"&gt; *  @return&lt;/span&gt;
+&lt;span class="cm"&gt; *  @warning&lt;/span&gt;
+&lt;span class="cm"&gt; **/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+
+&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; *  @brief      上传图片。上传成功后会自动将图片放入缓存，缓存的key为图片的url&lt;/span&gt;
+&lt;span class="cm"&gt; *  @param      UIImage，需要上传的图片&lt;/span&gt;
+&lt;span class="cm"&gt; *  @return     void&lt;/span&gt;
+&lt;span class="cm"&gt; *  @blocks&lt;/span&gt;
+&lt;span class="cm"&gt; *              success:返回的NSDictionary中包含服务器的response信息，包括图片id（id）,url(url),宽度(width),高度(height)。使用括号中的名称从NSDictionary中获取。&lt;/span&gt;
+&lt;span class="cm"&gt; *              failed:返回error&lt;/span&gt;
+&lt;span class="cm"&gt; **/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="iOS"></category></entry></feed>
