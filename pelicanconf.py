@@ -75,8 +75,8 @@ COVER_BG_COLOR = '#375152'
 DEFAULT_PAGINATION = 10
 
 # Plugin
-#PLUGIN_PATHS = ['pelican-plugins']
-#PLUGINS = [ 'sitemap', 'gravatar' ]
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = [ 'sitemap', 'gravatar' ]
 
 # Sitemap
 SITEMAP = {
